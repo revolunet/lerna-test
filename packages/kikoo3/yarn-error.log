@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/juju/.nvm/versions/node/v8.7.0/bin/node /Users/juju/.nvm/versions/node/v8.7.0/bin/yarn install --mutex network:42424 --non-interactive
+
+PATH: 
+  /Users/juju/Documents/projects/lerna-test/packages/kikoo3/node_modules/.bin:/Users/juju/Documents/projects/lerna-test/packages/node_modules/.bin:/Users/juju/Documents/projects/lerna-test/node_modules/.bin:/Users/juju/Documents/projects/node_modules/.bin:/Users/juju/Documents/node_modules/.bin:/Users/juju/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/juju/.nvm/versions/node/v8.7.0/bin:/Users/juju/Documents/projects/lerna-test/node_modules/.bin:/Users/juju/.config/yarn/link/node_modules/.bin:/Users/juju/Documents/projects/lerna-test/node_modules/.bin:/Users/juju/.config/yarn/link/node_modules/.bin:/Users/juju/.nvm/versions/node/v8.7.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/juju/.nvm/versions/node/v8.7.0/bin/node_modules/npm/bin/node-gyp-bin:/Users/juju/Downloads/google-cloud-sdk/bin:/Users/juju/.nvm/versions/node/v8.7.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.7.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+  	"dependencies": {
+  		"kikoo": "0",
+  		"kikoo2": "0"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/kikoo: Not found
+      at Request.params.callback [as _callback] (/Users/juju/.nvm/versions/node/v8.7.0/lib/node_modules/yarn/lib/cli.js:62098:18)
+      at Request.self.callback (/Users/juju/.nvm/versions/node/v8.7.0/lib/node_modules/yarn/lib/cli.js:123085:22)
+      at emitTwo (events.js:125:13)
+      at Request.emit (events.js:213:7)
+      at Request.<anonymous> (/Users/juju/.nvm/versions/node/v8.7.0/lib/node_modules/yarn/lib/cli.js:124068:10)
+      at emitOne (events.js:115:13)
+      at Request.emit (events.js:210:7)
+      at IncomingMessage.<anonymous> (/Users/juju/.nvm/versions/node/v8.7.0/lib/node_modules/yarn/lib/cli.js:123988:12)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:110:20)

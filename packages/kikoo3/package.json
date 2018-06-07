@@ -1,0 +1,9 @@
+{
+  "name": "kikoo3",
+  "version": "0.0.0",
+  "main": "./index",
+  "dependencies": {
+    "kikoo": "0.0.0",
+    "kikoo2": "0.0.0"
+  }
+}

@@ -1,5 +1,6 @@
 # learn demo
 
+A basic monorepo example
 
 ## Init
 
